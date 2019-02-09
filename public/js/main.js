@@ -1,7 +1,7 @@
 var canvas = document.getElementById("rebusCanvas");
 var ctx = canvas.getContext('2d');
 const REBUS_GENERATOR_ENDPOINT = "/puzzle";
-var answer = "";
+var answer;
 
 
 async function generateRebus(){
@@ -85,4 +85,11 @@ function loadImage(obj){
 
 function drawImage(){
 	ctx.drawImage(this, this.drawingData.x, this.drawingData.y);
+}
+
+function checkAnswer(){
+	let givenAnswer = document.getElementById("answer").value;
+	if (givenAnswer === answer) {
+		alert("Yes!");
+	}
 }
