@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from flask import Flask, jsonify, send_from_directory
 
 app = Flask(__name__) # app is our Flask object
