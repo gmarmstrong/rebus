@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+SOURCE_DATE_EPOCH=$(date +%s)
+virtualenv --no-setuptools rebus-env
+export PATH=$PWD/rebus-env/bin:$PATH
+pip install -r requirements-devel.txt
+FLASK_ENV='development'
+flask run
