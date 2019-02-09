@@ -26,6 +26,9 @@ setup(
         ],
     install_requires=[
         "nltk",
-        "flask"
+        "flask",
+        "emoji",
+        "json",
+        "urllib3"
         ]
 )

@@ -1,13 +1,7 @@
-import requests
 import json
 import urllib3
 import emoji
 from emoji import emojize
-import sys
-import emoji_data_python
-import nltk
-from nltk import corpus
-from nltk.corpus import wordnet
 
 urllib3.disable_warnings()
 http = urllib3.PoolManager()
@@ -27,3 +21,10 @@ def to_emoji(word):
             return str
         i += 1
     return word
+
+def emojify(words):
+    arr = words.split()
+    string = ""
+    for word in arr:
+        string += to_emoji(word) + " "
+    return string[:int(len(string)-1)]
