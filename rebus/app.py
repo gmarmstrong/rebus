@@ -14,7 +14,6 @@ def js(filename):
 def css(filename):
     return send_from_directory("../public/css", filename)
 
-
 @app.route('/puzzle')
 def puzzle():
     return(
