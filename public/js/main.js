@@ -1,4 +1,4 @@
-var canvas = document.getElementById("reebusCanvas");
+var canvas = document.getElementById("rebusCanvas");
 var ctx = canvas.getContext('2d');
 
 var rot = Math.PI/64;
@@ -14,7 +14,7 @@ function thisIsPointless(){
 	ctx.translate(-canvas.width/2, -canvas.height/2);
 }
 
-function generateReebus(){
+function generateRebus(){
 	thisIsPointless();
-	requestAnimationFrame(generateReebus, canvas);
+	requestAnimationFrame(generateRebus, canvas);
 }
