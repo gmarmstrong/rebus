@@ -3,10 +3,42 @@ var ctx = canvas.getContext('2d');
 const REBUS_GENERATOR_ENDPOINT = "/puzzle";
 var answer;
 
+var x = canvas.width/2;
+var y = canvas.height/2;
+var vx = 4;
+var vy = 4;
+var loadingBouncer;
+
+function loading(){
+	ctx.clearRect(0,0,canvas.width, canvas.height);
+
+	ctx.fillText("Loading...", x, y);
+	x += vx;
+	y += vy;
+	if (x >= canvas.width || x <= 0) {
+		vx *= -1;
+	}
+	if (y >= canvas.height || y < 0) {
+		vy *= -1;
+	}
+}
+
+function animateLoading(){
+	loadingBouncer = requestAnimationFrame(animateLoading, canvas);
+	loading();
+}
 
 async function generateRebus(){
+	ctx.fillStyle = "black";
+	ctx.font = "40px Arial";
+	ctx.textAlign = "center";
+	animateLoading();
+
 	const response = await fetch(REBUS_GENERATOR_ENDPOINT);
 	const drawingData = await response.json();
+
+	cancelAnimationFrame(loadingBouncer);
+	ctx.textAlign = "start";
 
 	answer = drawingData.answer.trim().toLowerCase();
 	let txtElems = drawingData.elements.textElements;
