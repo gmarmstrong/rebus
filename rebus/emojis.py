@@ -14,7 +14,6 @@ http = urllib3.PoolManager()
 
 def get_emoji(word):
     return emoji.emojize(":" + word + ":",use_aliases=True)
-    
 
 def to_emoji(word):
     str = get_emoji(word)
