@@ -1,7 +1,7 @@
-# rebus
+# REEB ME
 
-This is a program for generating rebuses, written for
-[UGAHacks](https://ugahacks.com/).
+This is a program for generating [rebuses](https://en.wikipedia.org/wiki/Rebus),
+ written for [UGAHacks](https://ugahacks.com/).
 
 ## Authors
 
