@@ -43,13 +43,15 @@ def puzzle():
                                 {
                                     'x': 8,
                                     'y': 9,
-                                    'width': 20,
-                                    'height': 30,
+                                    'width': 200,
+                                    'height': 199,
                                     'color': '#444444',
                                     'fill': True
                                     }
-                                ]
-                            }
+                                ],
+							'circles': []
+                            },
+						'imageElements':[]
                         }
                     }
                 )

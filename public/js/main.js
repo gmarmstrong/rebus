@@ -6,10 +6,9 @@ var answer;
 
 async function generateRebus(){
 	const response = await fetch(REBUS_GENERATOR_ENDPOINT);
-	const drawingJson = await response.json();
-	let drawingData = JSON.parse(drawingJson);
+	const drawingData = await response.json();
 
-	answer = drawingData.answer;
+	answer = drawingData.answer.trim().toLowerCase();
 	let txtElems = drawingData.elements.textElements;
 	let lineElems = drawingData.elements.shapeElements.lines;
 	let rectElems = drawingData.elements.shapeElements.rects;
@@ -25,10 +24,10 @@ async function generateRebus(){
 		drawLine(lineElems[i]);
 	}
 	for (var i = 0; i < rectElems.length; i++) {
-		drawLine(rectElems[i]);
+		drawRect(rectElems[i]);
 	}
 	for (var i = 0; i < circElems.length; i++) {
-		drawLine(circElems[i]);
+		drawCircle(circElems[i]);
 	}
 	for (var i = 0; i < imgElems.length; i++) {
 		loadImage(imgElems[i]);
@@ -88,7 +87,7 @@ function drawImage(){
 }
 
 function checkAnswer(){
-	let givenAnswer = document.getElementById("answer").value;
+	let givenAnswer = document.getElementById("answer").value.trim().toLowerCase();
 	if (givenAnswer === answer) {
 		alert("Yes!");
 	}
