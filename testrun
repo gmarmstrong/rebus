@@ -4,6 +4,5 @@ SOURCE_DATE_EPOCH=$(date +%s)
 virtualenv --no-setuptools rebus-env
 export PATH=$PWD/rebus-env/bin:$PATH
 pip install -r requirements-devel.txt
-FLASK_APP='rebus/core.py'
 FLASK_ENV='development'
 flask run
