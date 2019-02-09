@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from flask import Flask, jsonify, send_from_directory
 
 app = Flask(__name__) # app is our Flask object
@@ -42,13 +44,15 @@ def puzzle():
                                 {
                                     'x': 8,
                                     'y': 9,
-                                    'width': 20,
-                                    'height': 30,
+                                    'width': 200,
+                                    'height': 199,
                                     'color': '#444444',
                                     'fill': True
                                     }
-                                ]
-                            }
+                                ],
+							'circles': []
+                            },
+						'imageElements':[]
                         }
                     }
                 )
