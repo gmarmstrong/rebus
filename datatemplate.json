@@ -1,0 +1,65 @@
+{
+	"answer": "This is the answer",
+	"elements": {
+		"textElements": [
+			{
+				"text": "Blah",
+				"x": 77,
+				"y": 88,
+				"font": "99px Comic Sans MS",
+				"color": "red"
+			},
+			{
+				"text": "ugh",
+				"x": 90,
+				"y": 100,
+				"font": "1px Comic Sans MS",
+				"color": "#FF0078"
+			},
+			{
+				"text": "yuhyuhyuh",
+				"x": 34,
+				"y": 20,
+				"font": "89px Comic Sans MS",
+				"color": "rgba(27, 88, 100, .5)"
+			}
+		],
+		"shapeElements": {
+			"lines": [
+				{
+					"x1": 0,
+					"y1": 0,
+					"x2": 100,
+					"y2": 200,
+					"color": "red"
+				}
+			],
+			"rects": [
+				{
+					"x": 8,
+					"y": 9,
+					"width": 20,
+					"height": 30,
+					"color": "#444444",
+					"fill": true
+				}
+			],
+			"circles": [
+				{
+					"x": 70,
+					"y": 20,
+					"radius": 5,
+					"color": "rgba(99,88,77,.04)",
+					"fill": true
+				}
+			]
+		},
+		"imageElements": [
+			{
+				"src": "images/image.png",
+				"x": 9,
+				"y": 70
+			}
+		]
+	}
+}
