@@ -28,7 +28,6 @@ setup(
         "nltk",
         "flask",
         "emoji",
-        "json",
         "urllib3"
         ]
 )
