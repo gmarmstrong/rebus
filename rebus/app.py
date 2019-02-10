@@ -19,4 +19,9 @@ def css(filename):
 @app.route('/puzzle')
 def puzzle():
 	#TODO
-    return "<b> It works</b>"
+    return jsonify(
+		{
+			"answer": "Hella",
+			"puzzle": ["<b>Pingus</b>"]
+		}
+	)
