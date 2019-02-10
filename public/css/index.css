@@ -5,6 +5,6 @@ canvas {
 }
 
 .puzzle {
-	align: center;
-	font-family: monospace;
+	text-align: center;
+	font-size: 50px;
 }
