@@ -118,9 +118,7 @@ function drawImage(){
 	ctx.drawImage(this, this.drawingData.x, this.drawingData.y);
 }
 
-function checkAnswer(){
-	let givenAnswer = document.getElementById("answer").value.trim().toLowerCase();
-	if (givenAnswer === answer) {
-		alert("Yes!");
-	}
+function getAnswer(){
+	let answerSpace = document.getElementById("answer");
+	answerSpace.innerHTML = answer;
 }
