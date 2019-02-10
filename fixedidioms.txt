@@ -741,7 +741,6 @@ Dirt bag
 A Dish fit for the gods
 Do unto others as you would have them do to you
 Dock your pay
-Doesn't know shit from Shinola
 Doff your hat
 Dog days
 Dog in the manger
@@ -761,13 +760,10 @@ Don't die like I did
 Don't go there
 Don't have a clue
 Don't keep a dog and bark yourself
-Don't know shit from Shinola
-Don't let the bastards grind you down
 Don't look a gift horse in the mouth
 Don't shut the stable door after the horse has bolted
 Don't throw good money after bad
 Don't throw the baby out with the bathwater
-Don't try to teach your Grandma to suck eggs
 Doom and gloom
 Double cross
 Double Dutch
@@ -905,7 +901,6 @@ Flat out
 Flavor of the month
 Flesh and blood
 Flogging a dead horse
-The Floozie in the jacuzzi
 Flotsam and jetsam
 Fly by the seat of one's pants
 Fly in the ointment
@@ -937,8 +932,6 @@ Forlorn hope
 Foul play
 Four by two
 Four corners of the earth
-Frailty, thy name is woman
-cold enough to Freeze the balls off a brass monkey
 Freezing temperatures
 French phrases
 Friday afternoon car
@@ -1309,15 +1302,12 @@ Kowtow to
 La-di-da
 La dolce vita
 Labour of love
-Lackadaisical
-Ladies' room
 Lager frenzy
 Laid out in lavender
 La-la land
 Lamb to the slaughter
 Lame duck
 The Land of nod
-Lardy-dardy
 Lark about
 Last but not least
 The Last straw
@@ -1325,7 +1315,6 @@ Latin Phrases
 Laugh like a drain
 Laughing-stock
 rest on one's Laurels
-The law is an ass
 Lay it on with a trowel
 Go over like a Lead balloon
 Lead-pipe cinch
@@ -1421,13 +1410,11 @@ Market forces
 Marry in haste, repent at leisure
 May you live in interesting times
 The real McCoy
-Mea culpa
 Meat and drink
 Meat and two veg.
 Meet your Waterloo
 Men in suits
 Mend fences
-Ménage à trois
 Men's evil manners live in brass; their virtues we write in water
 Merry Christmas
 Method in my madness
@@ -1587,9 +1574,6 @@ On the shoulders of giants
 On the side of the angels
 On the wagon
 On the warpath
-On with the motley
-On your beam ends
-On your tod
 Once in a blue moon
 Once more unto the breach, dear friends, once more
 One-hit wonder
@@ -1606,18 +1590,15 @@ One's heart's content
 Oops-a-daisy
 Open season
 The order of the boot
-the many ways to pronounce Ough
 Out of sight
 Out of sight, out of mind
 Out of sorts
 Out of the jaws of death
-Out of the mouths of babes and sucklings
+Out of the mouths of babes
 Out on a limb
 Over a barrel
 Over the moon
 Over the top
-Overpaid, oversexed, and over here
-Oxo cube
 Packed to the gunwales
 Paddle your own canoe
 Paint the town red
@@ -1627,12 +1608,10 @@ Parting shot / Parthian shot
 Pass over to the other side
 Pass the buck
 A Paying guest
-pretty damn quick P.D.Q.
+pretty damn quick
 Pearls before swine
 Pears for your heirs
-Peeping Tom
 Peg out
-Pell-mell
 Pennies from heaven
 Penny dreadful
 The penny drops
@@ -1643,7 +1622,6 @@ Penny wise and pound foolish
 Pester power
 Peter out
 Petty cash
-Phrases that people get wrong
 Physician heal thyself
 Pick 'n' mix
 A Picture is worth a thousand words
@@ -1662,11 +1640,9 @@ Piggyback
 Pigs might fly
 Pin money
 Take with a pinch of salt
-Get the/got the /have the Pip
 Pipe down
 A Pipe dream
 Piping hot
-Full of Piss and vinegar
 Pitch black
 Pitch dark
 A Place for everything and everything in its place
@@ -1682,17 +1658,13 @@ Play it again Sam
 Play second fiddle
 Play silly buggers
 Play the giddy goat
-Play the race card
 Pleased as Punch
-Plug-ugly
 Plugged nickel
 Poetic justice
 Point-and-click
-Point Percy at the porcelain
 Politically correct
 Point-blank
 Point to point
-Pommy bashing
 Pomp and circumstance
 Pond life
 Pony and trap
@@ -1780,7 +1752,7 @@ Red herring
 Red in tooth and claw
 Red-letter day
 A Red rag to a bull
-Red sky at night ...
+Red sky at night
 Red tape
 Reduplicated phrases
 Religion is the opium of the people
@@ -1795,11 +1767,9 @@ Riding shotgun
 Riff-raff
 the life of Riley
 [That] Rings a bell
-Ring a ring o'roses, a pocketful of posies, atishoo, atishoo, all fall down
+Ring around the rosey
 Ring down the curtain
-Ring-fencing
 Ring the changes
-Rinky-dink
 Rise and shine
 The Road less travelled
 Road apples
@@ -1809,7 +1779,7 @@ Rob Peter to pay Paul
 Rock and roll
 Romeo, Romeo, wherefore art thou Romeo?
 A Rose by any other name would smell as sweet
-Rose is a rose is a rose
+A rose is a rose is a rose
 Rosie Lea
 Rough diamond
 Round Robin
@@ -1817,7 +1787,6 @@ Route one
 Rub of the green
 Rule of thumb
 Rum do
-Rumpy-pumpy
 Run a mile
 Run amok
 Run of the mill
@@ -1853,8 +1822,6 @@ Sent to Coventry
 Separate the sheep from the goats
 Set one's cap at
 Set your teeth on edge
-Seven-year itch
-Sexton Blake
 The whole Shebang
 Shaggy dog story
 Shake a leg
@@ -1865,8 +1832,6 @@ Shanks' mare/shanks' pony
 Share and share alike
 Shilly-shally
 Ship shape and Bristol fashion
-The Shit end of the stick
-Shit for brains
 Shiver my timbers
 Shoddy
 The Short end of the stick
@@ -2044,7 +2009,6 @@ The exception which proves the rule
 The face that launched a thousand ships
 The female of the species is more deadly then the male
 The fifth estate
-The floozie in the jacuzzi
 The fly in the ointment
 The full monty
 The game is afoot
@@ -2194,7 +2158,6 @@ unkindest cut of all The
 Up a blind alley
 Up a gum tree
 Up in arms
-Up shit creek without a paddle
 Up the apples and pears
 Up the duff
 Up the pole
@@ -2256,7 +2219,6 @@ When in Rome, do as the Romans do
 When it comes to the crunch
 When pigs fly
 When the going gets tough, the tough get going
-When the shit hits the fan
 Where there's muck there's brass
 Whet your appetite
 Which is which?
