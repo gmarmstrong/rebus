@@ -6,7 +6,7 @@ def r_above(x, y):
     return emojis.emojify(x) + "<br>" + emojis.emojify(y)
 
 def r_after(x, y):
-    return emojis.emojify(y) + " , " + emojis.emojify(x)
+    return emojis.emojify(y) + "\t\t" + emojis.emojify(x)
 
 def r_around(x, y):
     return "<table border=0><tr><td>" + emojis.emojify(x) + "</td><td>" + emojis.emojify(x) + "</td><td>" + emojis.emojify(x) + "</td></tr><tr><td>" + emojis.emojify(x) + "</td><td style=\"padding: 50px\">" + emojis.emojify(y) + "</td><td>" + emojis.emojify(x) + "</td></tr><tr><td>" + emojis.emojify(x) + "</td><td>" + emojis.emojify(x) + "</td><td>" + emojis.emojify(x) + "</td></tr></table>"
