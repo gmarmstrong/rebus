@@ -20,7 +20,7 @@ impl_binary = {
 		"against": patterns.r_against,
 		"under": patterns.r_under,
 		"below": patterns.r_below,
-		"in": patterns.r_in,
+		#"in": patterns.r_in,
 		"over" : patterns.r_above,
 		#"to" : patterns.r_to,
 		"through" : patterns.r_through,
