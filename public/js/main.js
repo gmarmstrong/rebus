@@ -6,7 +6,7 @@ async function generateRebus(){
 	const response = await fetch(REBUS_GENERATOR_ENDPOINT);
 	const drawingData = await response.json();
 	for (var i = 0; i < drawingData.puzzle.length; i++) {
-		document.getElementById('puzzle').innerHTML += drawingData.puzzle[i] + "\n";
+		document.getElementById('puzzle').innerHTML += drawingData.puzzle[i] + "<br>";
 	}
 
 	answer = drawingData.answer.trim();
