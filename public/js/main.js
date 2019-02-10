@@ -8,6 +8,7 @@ async function generateRebus(){
 	drawingData = await response.json();
 
 	document.getElementById('puzzle').innerHTML = drawingData.puzzle;
+	document.getElementById("answer").innerHTML = "";
 
 	answer = drawingData.answer.trim();
 }

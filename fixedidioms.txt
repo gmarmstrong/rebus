@@ -735,7 +735,6 @@ A Diamond is forever
 Not a Dicky-bird
 Die-hard
 the Die has been cast
-As different as chalk and cheese
 Different kettle of fish
 Differently abled
 Dirt bag
@@ -833,7 +832,6 @@ Excuse me while I kiss this guy
 Excuse my French
 Extraordinary rendition
 see ear candy Eye candy
-An eye for an eye, a tooth for a tooth
 Eye of newt and toe of frog, wool of bat and tongue of dog
 The Face that launched a thousand ships
 Face the music
@@ -896,9 +894,7 @@ First World
 Fish rot from the head down
 Fish or cut bait
 A Fish out of water
-As fit as a butcher's dog
 Fit as a fiddle
-Fifth column
 Fifth estate
 Fits and starts
 Fits to a tee
@@ -1017,7 +1013,6 @@ Go to pot
 Go to the dogs
 Go to the foot of our stairs
 Go to the mattresses
-Go the whole hog
 God bless you!
 God is dead
 God rot them
@@ -1092,7 +1087,6 @@ Hark, hark! the lark at heaven's gate sings
 Harp on
 Harvest moon
 Has the cat got your tongue?
-Hasta la vista, baby
 Haste makes waste
 Hat trick
 Have a Captain Cook
@@ -1147,7 +1141,6 @@ Hocus pocus
 Hoi polloi
 Hoist with your own petard
 Hoity-toity
-Can't hold a candle to
 Hold your horses
 Homonyms
 Honesty is the best policy
@@ -1183,7 +1176,6 @@ I told you is was ill
 I will swing for you
 I will wear my heart upon my sleeve
 Identity theft
-Beware the Ides of March
 If I had my druthers
 If it ain't broke, don't fix it
 If music be the food of love, play on
@@ -1232,7 +1224,6 @@ Indian summer
 Infra dig
 Innocent until proven guilty
 Inside out
-For all intents and purposes
 Iron hoof
 Is the Pope Catholic?
 Is the Pope Polish?
@@ -1253,7 +1244,6 @@ Jack in the box
 Jack of all trades, master of none
 Jack Palancing
 phrases that include the name Jack Jack
-Before you can say Jack Robinson
 Jack the lad
 Jam tomorrow
 Jerry built
@@ -1419,7 +1409,6 @@ Mal de mer
 A Man after my own heart
 Man does not live by bread alone
 A Man who is his own lawyer has a fool for a client
-A dog is a man's best friend
 Man's inhumanity to man
 Many a little makes a mickle
 Many are called but few are chosen
@@ -1502,7 +1491,6 @@ My giddy aunt
 My husband and I
 My mind's eye
 My old china
-My old Dutch
 My salad days
 My stars and garters
 Nail your colours to the mast
@@ -1514,7 +1502,6 @@ A Nation of shopkeepers
 Nautical phrases
 Near the knuckle
 Necessity is the mother of invention
-Ne'er cast a clout till May be out
 Ne'er do well
 Needs must
 Neither a borrower nor a lender be
@@ -1530,7 +1517,6 @@ Never the twain shall meet
 New kid on the block
 Nice as ninepence
 Nice kettle of fish
-In the nick of time
 Night owl
 Nine days' wonder
 Nip and tuck
@@ -1587,7 +1573,6 @@ Old hat
 see auld lang syne Old lang syne
 On a hiding to nothing
 On a wing and a prayer
-On Carey Street
 On cloud nine
 On queer street
 On tenterhooks
@@ -1633,7 +1618,6 @@ Over the moon
 Over the top
 Overpaid, oversexed, and over here
 Oxo cube
-Mind your Ps and Qs
 Packed to the gunwales
 Paddle your own canoe
 Paint the town red
@@ -1649,7 +1633,6 @@ Pears for your heirs
 Peeping Tom
 Peg out
 Pell-mell
-The pen is mightier than the sword
 Pennies from heaven
 Penny dreadful
 The penny drops
@@ -1674,7 +1657,6 @@ Pig in a poke
 Pigeon-chested
 on the Pig's back
 Pig's ear
-In a pig's eye
 Pig and whistle
 Piggyback
 Pigs might fly
@@ -1825,8 +1807,6 @@ Road rage
 Roasted to a turn
 Rob Peter to pay Paul
 Rock and roll
-It's not rocket science
-A rolling stone gathers no moss
 Romeo, Romeo, wherefore art thou Romeo?
 A Rose by any other name would smell as sweet
 Rose is a rose is a rose
@@ -1914,7 +1894,6 @@ At Sixes and sevens
 Skeleton in the closet
 Skid row
 Skin and blister
-By the skin of your teeth
 The sky's the limit
 A Sledgehammer to crack a nut
 Sleep like a top
@@ -1998,21 +1977,18 @@ Surfing the Net/surfing the Internet/surfing the Web
 Survival of the fittest
 Suspension of disbelief
 Swan song
-Sweet Fanny Adams
 Swing for you
 Swing the lead
 The Tail wagging the dog
 Take a back seat
 Take care of the pence and the pounds will take care of themselves
 Take down a peg or two
-Take potluck
 Take the bit between your teeth
 Take the cake
 Take the gilt off the gingerbread
 Take the Mickey
 Take the upper hand
 Take umbrage
-Take with a grain of salt
 Taken aback
 Taken for a ride
 Talk of the Devil
@@ -2040,8 +2016,6 @@ The bane of my life
 The bee's knees
 The belle of the ball
 The best laid schemes of mice and men
-The Big Apple
-The Big Easy
 The birds and the bees
 The bitter end
 The blind leading the blind
@@ -2061,8 +2035,6 @@ The darkest hour is just before the dawn
 The Devil Incarnate
 The Devil is in the details
 The Devil makes work for idle hands to do
-The Devil take the hindmost
-The Devil to pay
 The die has been cast
 The early bird catches the worm
 The elephant in the room
@@ -2070,7 +2042,6 @@ The emperor's new clothes
 The ends of the earth
 The exception which proves the rule
 The face that launched a thousand ships
-The fat of the land
 The female of the species is more deadly then the male
 The fifth estate
 The floozie in the jacuzzi
@@ -2085,7 +2056,6 @@ The heebie-jeebies
 The jury is still out
 The land of nod
 The last straw
-The law is an ass
 The life of Riley
 The living daylights
 The love that dare not speak its name
@@ -2095,13 +2065,11 @@ The moving finger writes
 The mutt's nuts
 The nth degree
 The opera ain't over till the fat lady sings
-The pen is mightier than the sword
 Get/got/have The pip
 The pot calling the kettle black
 The powers that be
 The proof of the pudding is in the eating
 The quick and the dead
-The real McCoy
 The road less travelled
 The road to hell is paved with good intentions
 The salt of the earth
@@ -2109,7 +2077,6 @@ The seven-year itch
 The shoemaker always wears the worst shoes
 The short end of the stick
 The shot heard 'round the world
-The sky's the limit
 The smallest room in the house
 The straw that broke the camel's back
 The tail wagging the dog
@@ -2118,7 +2085,6 @@ The third degree
 The triumph of hope over experience
 The upper hand
 The usual suspects
-The whole kit and caboodle
 The whole nine yards
 The whole shebang
 The writing is on the wall
@@ -2137,8 +2103,6 @@ There's one (a sucker born every minute
 They couldn't hit an elephant at this distance
 Thick and fast
 Thick and thin
-As thick as thieves
-As thick as two short planks
 Vanish into Thin air
 A Thing of beauty is a joy forever
 Things that go bump in the night
@@ -2194,14 +2158,6 @@ Tomorrow is another day
 Tongue in cheek
 Too big for your breeches
 Too much of a good thing
-Toodle-oo
-Tooth and nail
-Top dog
-Top drawer
-Top notch
-Topsy-turvy
-Total shambles
-Touch and go
 Wouldn't Touch with a barge-pole
 Touch wood
 Touchy-feely
@@ -2246,7 +2202,6 @@ Up the wooden hill to Bedfordshire
 Up to snuff
 Upper crust
 Upper hand
-Up in arms
 Ups-a-daisy
 Upset the apple-cart
 Up the ante
@@ -2271,7 +2226,6 @@ Walk the plank
 Walter Scott (phrases coined by
 Warts and all
 Watch the birdie
-A watched pot never boils
 Watching brief
 Wave a red rag to a bull
 Wax lyrical
@@ -2330,7 +2284,6 @@ Wild goose chase
 Willy nilly
 Win hands down
 Win one for the Gipper
-On a wing and a prayer
 Wing it
 Winter drawers on
 Wish you were here
