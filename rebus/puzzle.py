@@ -40,10 +40,9 @@ def rebus_magic(tokens, terminators_allowed=False):
                 if (i == 0) or (i == len(tokens) - 1):
                     pass
                 else:
-                    leftSide = " ".join(tokens[:i])
-                    rightSide = " ".join(tokens[i + 1:])
-                    result = impl_binary[word](leftSide, rightSide)
-                    return rebus_magic(result)
+                    leftSide = rebus_magic(" ".join(tokens[:i]))
+                    rightSide = rebus_magic(" ".join(tokens[i + 1:]))
+                    return impl_binary_terminators[word](leftSide, rightSide)
 
         # unary terminator functions
         if terminators_allowed:
@@ -51,25 +50,22 @@ def rebus_magic(tokens, terminators_allowed=False):
                 if i == len(tokens) - 1:
                     pass
                 else:
-                    rightSide = " ".join(tokens[i + 1:])
-                    result = impl_unary[word](rightSide)
-                    return rebus_magic(result)
+                    rightSide = rebus_magic(" ".join(tokens[i + 1:]))
+                    return impl_unary_terminators[word](rightSide)
 
         # binary functions
         if t in impl_binary.keys():
             if (i == 0) or (i == len(tokens) - 1):
                 pass
             else:
-                leftSide = " ".join(tokens[:i])
-                rightSide = " ".join(tokens[i + 1:])
-                result = impl_binary[word](leftSide, rightSide)
-                return rebus_magic(result)
+                leftSide = rebus_magic(" ".join(tokens[:i]))
+                rightSide = rebus_magic(" ".join(tokens[i + 1:]))
+                return impl_binary[word](leftSide, rightSide)
 
         # unary functions
         if t in impl_unary.keys():
             if i == len(tokens) - 1:
                 pass
             else:
-                rightSide = " ".join(tokens[i + 1:])
-                result = impl_unary[word](leftSide, rightSide)
-                return rebus_magic(result)
+                rightSide = rebus_magic(" ".join(tokens[i + 1:]))
+                return impl_unary[word](rightSide)
