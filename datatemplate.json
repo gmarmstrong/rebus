@@ -7,14 +7,16 @@
 				"x": 77,
 				"y": 88,
 				"font": "99px Comic Sans MS",
-				"color": "red"
+				"color": "red",
+				"scaledown": true
 			},
 			{
 				"text": "ugh",
 				"x": 90,
 				"y": 100,
 				"font": "1px Comic Sans MS",
-				"color": "#FF0078"
+				"color": "#FF0078",
+				"scaledown": false
 			},
 			{
 				"text": "yuhyuhyuh",

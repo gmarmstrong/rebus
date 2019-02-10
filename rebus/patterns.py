@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
 import rebus
-from rebus import emojis
+from rebus import emojis, dict_builders
+
+canvas_width = 500
+canvas_height = 400
 
 def r_above(x, y):
-    return emojis.emojify(x) + "\n" + emojis.emojify(y)
+    return (
+		{
+			'text': emojis.emojify(x) + "\n" + emojis.emojify(y),
+
+		}
+	)
 
 def r_after(x, y):
     return emojis.emojify(y) + "\t,\t" + emojis.emojify(x)
