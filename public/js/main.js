@@ -1,18 +1,18 @@
 const REBUS_GENERATOR_ENDPOINT = "/puzzle";
 var answer;
+var drawingData;
 
 async function generateRebus(){
 
 	const response = await fetch(REBUS_GENERATOR_ENDPOINT);
-	const drawingData = await response.json();
-	for (var i = 0; i < drawingData.puzzle.length; i++) {
-		document.getElementById('puzzle').innerHTML += drawingData.puzzle[i] + "<br>";
-	}
+	drawingData = await response.json();
+
+	document.getElementById('puzzle').innerHTML = drawingData.puzzle;
 
 	answer = drawingData.answer.trim();
 }
 
-function getAnswer(){
+function showAnswer(){
 	let answerSpace = document.getElementById("answer");
 	answerSpace.innerHTML = answer;
 }

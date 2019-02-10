@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from flask import Flask, jsonify, send_from_directory
+from rebus.puzzle import request_puzzle
 
 app = Flask(__name__) # app is our Flask object
 
@@ -18,10 +19,9 @@ def css(filename):
 
 @app.route('/puzzle')
 def puzzle():
-	#TODO
-    return jsonify(
-		{
-			"answer": "Hella",
-			"puzzle": ["<b>Pingus</b>","<i>This is on another line</i>"]
-		}
-	)
+	result = request_puzzle()
+	print(result)
+	while result['puzzle'] is None:
+		result = request_puzzle()
+
+	return jsonify(result)

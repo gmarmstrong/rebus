@@ -24,7 +24,7 @@ def r_below(x, y):
     return r_under(x, y)
 
 def r_in(x, y):
-    return y[:int(len(y)/2)] + emojis.emojify(x) + y[int(len(y)/2):]
+    return y[:int(len(y)/2)] + " " + emojis.emojify(x) + " " + y[int(len(y)/2):]
 
 def r_to(x, y):
     return x + "➡️" + y
