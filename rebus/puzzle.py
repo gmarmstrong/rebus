@@ -5,10 +5,16 @@ import patterns
 
 nltk.download('punkt')
 
+impl_binary_terminators = {
+        "around": patterns.r_around,
+        }
+
+impl_unary_terminators = {}
+
 impl_binary = {
+        # TODO function aliases happen here
         "above": patterns.r_above,
         "after": patterns.r_after,
-        "around": patterns.r_around,
         "before": patterns.r_before,
         "against": patterns.r_against,
         "under": patterns.r_under,
@@ -16,17 +22,54 @@ impl_binary = {
         "in": patterns.r_in
         }
 
-def generate_rebus(sentence):
+impl_unary = {}
+
+def get_rebus(sentence):
+    articles = { "the", "a", "an" }
     tokens = nltk.word_tokenize(sentence)
-    for word in tokens:
-        i = tokens.index(word)
-        if word in impl_binary.keys():
-            leftSide = " ".join(tokens[:i])
+    tokens[:] = (value for value in tokens if value not in articles)
+    return rebus_magic(tokens, True)
+
+def rebus_magic(tokens, terminators_allowed=False):
+    for t in tokens:
+        i = tokens.index(t)
+
+        # binary terminator functions
+        if terminators_allowed:
+            if (t in impl_binary_terminators.keys()):
+                if (i == 0) or (i == len(tokens) - 1):
+                    pass
+                else:
+                    leftSide = " ".join(tokens[:i])
+                    rightSide = " ".join(tokens[i + 1:])
+                    result = impl_binary[word](leftSide, rightSide)
+                    return rebus_magic(result)
+
+        # unary terminator functions
+        if terminators_allowed:
+            if (t in impl_unary_terminators.keys()):
+                if i == len(tokens) - 1:
+                    pass
+                else:
+                    rightSide = " ".join(tokens[i + 1:])
+                    result = impl_unary[word](rightSide)
+                    return rebus_magic(result)
+
+        # binary functions
+        if t in impl_binary.keys():
+            if (i == 0) or (i == len(tokens) - 1):
+                pass
+            else:
+                leftSide = " ".join(tokens[:i])
+                rightSide = " ".join(tokens[i + 1:])
+                result = impl_binary[word](leftSide, rightSide)
+                return rebus_magic(result)
+
+        # unary functions
+        if t in impl_unary.keys():
             if i == len(tokens) - 1:
-                rightSide = ""
+                pass
             else:
                 rightSide = " ".join(tokens[i + 1:])
-            result = impl_binary[word](leftSide, rightSide)
-            print(result)
-
-generate_rebus("No coffee after midnight")
+                result = impl_unary[word](leftSide, rightSide)
+                return rebus_magic(result)
