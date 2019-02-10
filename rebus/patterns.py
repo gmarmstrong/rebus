@@ -6,7 +6,7 @@ def r_above(x, y):
     return emojis.emojify(x) + "\n" + emojis.emojify(y)
 
 def r_after(x, y):
-    return emojis.emojify(y) + "\t,\t" + emojis.emojify(x)
+    return emojis.emojify(y) + "\t\t" + emojis.emojify(x)
 
 def r_around(x, y):
     return emojis.emojify(x) + "\t" + emojis.emojify(x) + "\t" + emojis.emojify(x) + "\n" + emojis.emojify(x) + "\t" + emojis.emojify(y) + "\t" + emojis.emojify(x) + "\n" + emojis.emojify(x) + "\t" + emojis.emojify(x) + "\t" + emojis.emojify(x)
