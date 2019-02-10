@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Rebus Generator 9000</title>
-	 <meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
-</head>
-<body>
-	<div class="puzzle" id="puzzle">
-
-	</div>
-	<br>
-	<button type="button" id="generate" onclick="generateRebus()">Generate a rebus</button>
-	<br>
-	<button type="button" name="getAnswer" onclick="showAnswer()">Reveal Solution</button>
-	<p id="answer"></p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<b>We're also on <a href="https://github.com/gmarmstrong/rebus">Github!</a></b>
-</body>
-<script type="text/javascript" src="js/main.js"></script>
+    <head>
+        <title>Rebus Generator 9000</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body style="margin-left: 50px; margin-top: 50px">
+        <div class="puzzle" id="puzzle">
+        </div>
+        <br>
+        <button type="button" id="generate" onclick="generateRebus()">Generate a rebus</button>
+        <br>
+        <button type="button" name="getAnswer" onclick="showAnswer()">Reveal solution</button>
+        <p id="answer"></p>
+        <footer style="position: fixed; bottom: 0; padding-block-end: 50px;">
+            <strong>We're also on <a href="https://github.com/gmarmstrong/rebus">Github</a>!</strong>
+            <br/>
+            <strong>Disclaimer: these puzzles are generated from a large,
+                <emph>non-curated</emph> list of English idioms, and may
+                sometimes be offensive.</strong>
+        </footer>
+    </body>
+    <script type="text/javascript" src="js/main.js"></script>
 </html>
