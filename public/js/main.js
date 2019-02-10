@@ -1,8 +1,9 @@
 const REBUS_GENERATOR_ENDPOINT = "/puzzle";
-var answer;
+var answer = "undefined";
 var drawingData;
 
 async function generateRebus(){
+	document.getElementById('puzzle').innerHTML = "Loading...";
 
 	const response = await fetch(REBUS_GENERATOR_ENDPOINT);
 	drawingData = await response.json();
@@ -15,5 +16,9 @@ async function generateRebus(){
 
 function showAnswer(){
 	let answerSpace = document.getElementById("answer");
-	answerSpace.innerHTML = answer;
+	if (answer === "undefined") {
+		answerSpace.innerHTML = "You need to generate a rebus first!";
+	} else {
+		answerSpace.innerHTML = answer;
+	}
 }

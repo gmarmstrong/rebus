@@ -7,4 +7,31 @@ canvas {
 .puzzle {
     text-align: center;
     font-size: 50px;
+	height: 300px;
+}
+
+.puzzle > table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	padding-block-end: 10px;
+
+}
+
+.buttons {
+	text-align: center;
+}
+
+.buttons > button {
+	text-decoration: none;
+	display: inline-block;
+	width: auto;
+	height: 30px;
+	margin: 4px 2px;
+	border-radius: 12px;
+	font-size: 20px;
 }
