@@ -22,6 +22,6 @@ def puzzle():
     return jsonify(
 		{
 			"answer": "Hella",
-			"puzzle": ["<b>Pingus</b>"]
+			"puzzle": ["<b>Pingus</b>","<i>This is on another line</i>"]
 		}
 	)
