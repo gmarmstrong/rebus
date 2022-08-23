@@ -435,7 +435,6 @@ Before you can say Jack Robinson
 Beg the question
 Beggar belief
 Beggars can't be choosers
-Behind every great man there's a great woman
 Behind the eight ball
 Bell, book and candle
 Bell the cat
@@ -1428,7 +1427,6 @@ Mind's ear
 Mind's eye
 A Ministering angel shall my sister be
 Mint condition
-Misery acquaints a man with strange bedfellows
 Misquotes
 Miss is as good as a mile
 Moaning Minnie
@@ -1436,7 +1434,6 @@ Mondegreens
 Montezuma's Revenge
 Money' phrases
 Money for old rope
-Monstrous regiment of women
 The full Monty
 Moot point
 Morbid obesity
@@ -1841,7 +1838,6 @@ Show your mettle
 Shrinking violet
 Shuffle off this mortal coil
 Shut your cake-hole
-Siamese twins
 Sight for sore eyes
 Silly Billy
 Silly season
@@ -1933,7 +1929,9 @@ Stuff and nonsense
 Stump up
 Such is life
 Surf and turf
-Surfing the Net/surfing the Internet/surfing the Web
+Surfing the Internet
+Surfing the Net
+Surfing the Web
 Survival of the fittest
 Suspension of disbelief
 Swan song
@@ -2018,7 +2016,6 @@ The last straw
 The life of Riley
 The living daylights
 The love that dare not speak its name
-The monstrous regiment of women
 The more the merrier
 The moving finger writes
 The mutt's nuts
@@ -2250,7 +2247,6 @@ Woe betide you
 Woe is me
 Wolf in sheep's clothing
 A Woman needs a man like a fish needs a bicycle
-A Woman's place is in the home
 Women and children first
 Word for word
 Worse for wear
