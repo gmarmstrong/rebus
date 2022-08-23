@@ -5,5 +5,5 @@ virtualenv --no-setuptools rebus-env
 export PATH=$PWD/rebus-env/bin:$PATH
 pip install -r requirements-devel.txt
 export FLASK_APP='rebus/app.py'
-export FLASK_ENV='development'
+export FLASK_DEBUG=1
 flask run
