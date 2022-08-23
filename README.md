@@ -3,6 +3,15 @@
 This is a program for generating [rebuses](https://en.wikipedia.org/wiki/Rebus),
  written for [UGAHacks](https://ugahacks.com/).
 
+## Usage
+
+Prerequisites: [Poetry](https://python-poetry.org)
+
+```bash
+poetry install
+poetry run flask --app rebus.app run
+```
+
 ## Authors
 
 - Guthrie McAfee Armstrong ([github.com/gmarmstrong](https://github.com/gmarmstrong))
