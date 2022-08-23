@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "rebus"
+version = "0.2.0"
+description = "Pictographic pun generator"
+authors = [
+    "Guthrie McAfee Armstrong <git@gmarmstrong.dev>",
+    "Connor Dooley",
+    "Eric Miller",
+    ]
+license = "MIT"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Topic :: Artistic Software",
+    "Topic :: Games/Entertainment :: Puzzle Games",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+nltk = "^3.7"
+Flask = "^2.2.2"
+emoji = "^2.0.0"
+urllib3 = "^1.26.12"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
