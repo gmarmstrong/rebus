@@ -1,7 +1,7 @@
-# REEB ME
+# ~~REEB ME~~ _rebus_
 
 This is a program for generating [rebuses](https://en.wikipedia.org/wiki/Rebus),
- written for [UGAHacks](https://ugahacks.com/).
+written for [UGAHacks](https://ugahacks.com/) in 2019.
 
 ## Usage
 
