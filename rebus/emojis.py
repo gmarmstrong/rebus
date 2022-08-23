@@ -7,7 +7,7 @@ urllib3.disable_warnings()
 http = urllib3.PoolManager()
 
 def get_emoji(word):
-    return emoji.emojize(":" + word + ":",use_aliases=True)
+    return emoji.emojize(":" + word + ":")
 
 def to_emoji(word):
     str = get_emoji(word)
