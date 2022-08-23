@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from flask import Flask, jsonify, send_from_directory
-from rebus.puzzle import request_puzzle
+from rebus.puzzle import generate_puzzle
 
 app = Flask(__name__) # app is our Flask object
 
@@ -19,9 +19,9 @@ def css(filename):
 
 @app.route('/puzzle')
 def puzzle():
-	result = request_puzzle()
+	result = generate_puzzle()
 	print(result)
 	while result['puzzle'] is None:
-		result = request_puzzle()
+		result = generate_puzzle()
 
 	return jsonify(result)

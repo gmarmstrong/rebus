@@ -32,22 +32,15 @@ impl_binary = {
 
 impl_unary = {}
 
-file_lines = 2300;
-def request_puzzle():
-	while True:
-		linenum = random.randint(0, file_lines);
-		with open("./idioms.txt") as f:
-			x = f.readlines()[linenum].lower()
-			reb = get_rebus(x)
-			if reb == "":
-				continue
-			else:
-				return (
-					{
-					'answer': x,
-					'puzzle': reb
-					}
-					)
+def generate_puzzle():
+	with open("./idioms.txt", "r") as f:
+		lines = f.readlines()
+		while True:
+			line = random.choice(lines)
+			line = line.strip()
+			reb = get_rebus(line)
+			if reb != "":
+				return ({'answer': line, 'puzzle': reb})
 
 def get_rebus(sentence):
 	articles = { "a", "an" }
