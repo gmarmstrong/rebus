@@ -36,7 +36,7 @@ file_lines = 2300;
 def request_puzzle():
 	while True:
 		linenum = random.randint(0, file_lines);
-		with open("./fixedidioms.txt") as f:
+		with open("./idioms.txt") as f:
 			x = f.readlines()[linenum].lower()
 			reb = get_rebus(x)
 			if reb == "":
