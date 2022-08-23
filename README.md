@@ -7,10 +7,14 @@ written for [UGAHacks](https://ugahacks.com/) in 2019.
 
 Prerequisites: [Poetry](https://python-poetry.org)
 
+With poetry installed, run the following commands from the root of the project:
+
 ```bash
 poetry install
 poetry run flask --app rebus.app run
 ```
+
+Then visit <http://localhost:5000> in your browser.
 
 ## Authors
 
